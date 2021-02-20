@@ -34,5 +34,15 @@ class ObjectActivity : BaseActivity() {
         s.move()
         s.doSomething()
         Log.w(tag, "Student= $s")
+
+        var k = KotlinFile("Jack")
+        Log.w(tag, "name= ${k.name}")
+        k.name = "ddd"
+        Log.e(tag, "name= ${k.name}")
+
+        val list= arrayListOf ("10", "11", "1001");
+        for ((index, element) in list.withIndex()) {
+            Log.i(tag, "$index : $element")
+        }
     }
 }
