@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.KotlinExample">
-        <activity android:name=".tutorial2.ObjectActivity">
+        <activity android:name=".tutorial3.FunctionActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
