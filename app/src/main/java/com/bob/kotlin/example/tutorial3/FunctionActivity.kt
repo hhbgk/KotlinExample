@@ -23,6 +23,10 @@ class FunctionActivity : BaseActivity() {
         Log.e(tag, "result=$result")
 
         Log.e(tag, "list=" + list.joinToString(" "))
+
+        val button = MyButton()
+        button.click()
+        button.showOff()
     }
 
     private fun <T> joinToString(collection:Collection<T>, separator :String = ", ", prefix:String = "[", postfix: String = "]") : String{
