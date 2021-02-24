@@ -41,6 +41,13 @@ class FunctionActivity : BaseActivity() {
         val processed2 = hashSetOf(client3)
         Log.e(tag, "client3 == client4:" + (client3 == client4)
                 + ", contain:" + processed2.contains(client4) + ", client=" + client3)
+
+        val p1 = Payroll
+        val p2 = Payroll
+        Log.w(tag, "p1=$p1, p2=$p2")
+
+        CompanionClass.bar()
+        CompanionClass.foo()
     }
 
     private fun <T> joinToString(collection:Collection<T>, separator :String = ", ", prefix:String = "[", postfix: String = "]") : String{
